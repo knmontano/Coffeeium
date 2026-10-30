@@ -1,0 +1,142 @@
+body {
+    background-image: none !important; 
+    background-color: #f7f3e8; 
+}
+
+.order-container {
+    width: 90%;
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.order-container h1 {
+    text-align: center;
+    color: #4F3A2C;
+    border-style: none; 
+    border-radius: 0;
+    margin-bottom: 20px;
+    background-image: none;
+}
+
+.order-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+.order-table th, .order-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+.order-table th {
+    background-color: #F5E5D1; 
+    color: #4F3A2C;
+    font-weight: bold;
+}
+
+.order-table tr:last-child td {
+    border-bottom: none;
+}
+
+.order-table .qty {
+    text-align: center;
+}
+.item-actions {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.deduct-btn, .remove-btn {
+    padding: 4px 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+    line-height: 1;
+    border: none;
+}
+
+.deduct-btn {
+    background-color: #f0f0f0;
+    color: #4F3A2C;
+    border: 1px solid #ccc;
+}
+
+.deduct-btn:hover {
+    background-color: #ddd;
+}
+
+.remove-btn {
+    background-color: #E63946; 
+    color: white;
+}
+
+.remove-btn:hover {
+    background-color: #c42d38;
+}
+.summary-card {
+    border: 2px dashed #6D533D;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fffaf0;
+}
+
+.summary-line {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1rem;
+    padding: 5px 0;
+}
+
+.final-total {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #E63946; 
+    margin-top: 10px;
+}
+
+.summary-hr {
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
+}
+
+.empty-cart-message {
+    text-align: center;
+    font-style: italic;
+    color: #777;
+    padding: 20px;
+    border: 1px dashed #ccc;
+    border-radius: 5px;
+}
+.back-link {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.menu-btn {
+    width: 100%;
+    max-width: 300px;
+    padding: 15px;
+    background-color: #4F3A2C; 
+    color: white;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.menu-btn:hover {
+    background-color: #6D533D;
+}

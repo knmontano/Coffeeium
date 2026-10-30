@@ -1,0 +1,196 @@
+body{
+    background-image: url('https://64.media.tumblr.com/7e5be0b460f1404bfbf24807efa95f04/5bdfeadfc689526d-6d/s400x600/a87a377cee60d959ae9560c588ec691a2da470db.gifv') ;
+    background-size: cover; 
+    background-attachment: fixed;
+}
+h1{
+    border: solid;
+    border-radius: 50% / 10%;
+    background-image: url('bg.jpg') ;
+    color: rgb(26, 7, 7);
+}
+hr {
+    border-width: 10px;
+    border: dashed;
+    border-radius: 50% / 10%;
+}
+fieldset{
+    width: 80%;
+    background-color: wheat;
+    margin: 30px auto; 
+    padding: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 15px;
+    border-style: none;
+}
+.view-order-container {
+    
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+}
+
+.cart-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cart-badge {
+    background-color: #E63946; 
+    color: white;
+    font-weight: bold;
+    font-size: 0.8rem;
+    padding: 2px 8px;
+    border-radius: 50px;
+    line-height: 1;
+    margin-bottom: 2px;
+}
+
+.cart-total {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #4F3A2C; 
+    padding: 2px 5px;
+    background-color: #F5E5D1; 
+    border-radius: 4px;
+    border: 1px solid #6D533D;
+}
+.header-nav {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0 10px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center; 
+    gap: 15px; 
+}
+
+.user-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 5px; 
+}
+
+.nameset {
+    border-style: solid;
+    margin: 30px auto; 
+    width: 80%;
+    border-radius: 40% / 15%;
+}
+
+.shopname {
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+}
+
+.cname h4 {
+    margin-top: 0;
+    font-style: italic;
+    font-weight: normal;
+}
+
+button {
+    width: 130px; 
+    padding: 10px 15px;
+    background: #F5E5D1; 
+    border-radius: 6px;
+    border: 2px solid #4F3A2C; 
+    outline: none;
+    font-size: 16px;
+    color: #4F3A2C; 
+    cursor: pointer;
+    font-weight: bold; 
+    margin-bottom: 0; 
+    transition: 0.3s ease-in-out;
+}
+
+button:hover{
+    background: #6D533D; 
+    color: white; 
+    border-color: white; 
+}
+
+.user-controls button {
+    width: 120px; 
+}
+
+.receiver {
+    position: fixed; 
+    top: 20px; 
+    right: 20px; 
+    background-color: #4F3A2C; 
+    color: #F5E5D1; 
+    border: 3px solid #6D533D; 
+    padding: 1.2rem 2.5rem; 
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4); 
+    z-index: 1000; 
+    opacity: 0; 
+    visibility: hidden; 
+    transform: translateY(-50px); 
+    transition: all 0.5s ease-in-out; 
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.receiver p {
+    margin: 0; 
+}
+
+.show-alert {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0); 
+}
+
+@keyframes pop-and-return {
+    0% { transform: scale(1) translateY(0); }
+    50% { transform: scale(1.05) translateY(5px); }
+    100% { transform: scale(1) translateY(0); }
+}
+border {
+    border: solid;
+    border-radius: 10px;
+}
+.timage img {
+    width: 100%; 
+    max-width: 200px; 
+    height: auto; 
+}
+
+.timage a {
+    text-decoration: none;
+    display: block; 
+    transition: transform 0.5s ease-in-out; 
+    color: white; 
+    font-style: oblique;
+    font-size: 14px; 
+}
+
+.timage th {
+    padding: 10px; 
+    vertical-align: top; 
+}
+
+.timage a {
+    background-image: url('coffeebg.jpg');
+    border-radius: 15px; 
+    padding: 15px; 
+    margin: 5px; 
+    display: block;
+    text-align: center; 
+}
+
+.timage a p {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 5px 0; 
+}
+
+.timage a:hover {
+    transform: scale(1.05) translateY(-5px);
+}
